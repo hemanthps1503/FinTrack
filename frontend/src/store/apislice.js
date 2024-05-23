@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-const baseurl = "http://localhost:8080";
+const baseurl = "https://fintrack-2jel.onrender.com";
 
 export const apislice = createApi({
     baseQuery: fetchBaseQuery({ baseUrl: baseurl }),
